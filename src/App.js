@@ -17,8 +17,8 @@ function App() {
                     <img src ={menu} id= 'menu'/>
                 </div>
                 <div className='main'>
-                    <h1></h1>
-                    <p></p>
+                    <h1>Say Hello To ReactJS</h1>
+                    <p>You will learn how to use the most popular frontend library, and become a super Ninja developer</p>
                 </div>
                 <div className='button'>
                     <button>Awesome!</button>
@@ -27,41 +27,33 @@ function App() {
             </div>
             <div className='images'>
                 <div>
-                    <img />
+                    <img src ={icon4} />
                     <div>
-                        <h3></h3>
-                        <p></p>
+                        <h3>Declarative</h3>
+                        <p>React makes it painless to create interactive UIs</p>
                     </div>
                 </div>
                 <div>
-                    <img />
+                    <img src ={icon3}/>
                     <div>
-                        <h3></h3>
-                        <p></p>
+                        <h3>Components</h3>
+                        <p>Build encapsulated components that manage their state</p>
                     </div>
                 </div>
                 <div>
-                    <img />
+                    <img src ={icon2} />
                     <div>
-                        <h3></h3>
-                        <p></p>
+                        <h3>Single-Way</h3>
+                        <p>A set of immutable values are passed to the component's</p>
                     </div>
                 </div>
                 <div>
-                    <img />
+                    <img src ={icon1}/>
                     <div>
-                        <h3></h3>
-                        <p></p>
+                        <h3>JSX</h3>
+                        <p>Statically-typed designed to run on modern browsers</p>
                     </div>
-                </div>
-                <div>
-                    <img />
-                    <div>
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                </div>
-                
+                </div>               
             </div>
 
         </div>
